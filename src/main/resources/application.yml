@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /ExampleWsApplication
+
+wssecurity:
+  signature:
+    keystore:
+      path: keystore/selfsigned.jks
+      password: password
